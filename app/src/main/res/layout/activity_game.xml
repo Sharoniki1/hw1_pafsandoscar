@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game_Activity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/game_IMG_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2196F3"
+        android:scaleType="centerCrop"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/game_IMG_heart1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="5dp"
+                    app:srcCompat="@drawable/ic_heart"/>
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/game_IMG_heart2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="5dp"
+                    app:srcCompat="@drawable/ic_heart"/>
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/game_IMG_heart3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="5dp"
+                    app:srcCompat="@drawable/ic_heart"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </RelativeLayout>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/game_IMG_obstaclepirane1"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/img_obstaclepirane"/>
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/game_IMG_obstaclepirane2"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/img_obstaclepirane"/>
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/game_IMG_obstaclepirane3"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/img_obstaclepirane"/>
+
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/game_IMG_obstaclepirane4"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/img_obstaclepirane"/>
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/game_IMG_obstaclepirane5"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/img_obstaclepirane"/>
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/game_IMG_obstaclepirane6"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/img_obstaclepirane"/>
+
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/game_IMG_obstaclepirane7"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/img_obstaclepirane"/>
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/game_IMG_obstaclepirane8"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/img_obstaclepirane"/>
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/game_IMG_obstaclepirane9"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/img_obstaclepirane"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/game_LIN_alloscars"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/game_IMG_oscar1"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/img_oscar"/>
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/game_IMG_oscar2"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/img_oscar"/>
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/game_IMG_oscar3"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/img_oscar"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                android:id="@+id/game_BTN_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/game_LIN_alloscars"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:backgroundTint="#E91E63"
+                app:icon="@drawable/ic_left"/>
+
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                android:id="@+id/game_BTM_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/game_LIN_alloscars"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#E91E63"
+                app:icon="@drawable/ic_right"/>
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>
